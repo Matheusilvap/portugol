@@ -1,27 +1,30 @@
 programa
 {
 	 funcao inicio() 
-{ 
+  { 
 	real valor1, valor2, valor3, menor 
+
 	escreva("Digite o primeiro valor: \n ") 
 	leia(valor1) 
 	escreva("Digite o segundo valor: \n")
 	leia(valor2) 
 	escreva("Digite o terceiro valor: \n")
 	leia(valor3) 
-	se(valor1 < valor2 e valor1 < valor3)
+
+	 se(valor1 < valor2 e valor1 < valor3)
 	{ 
 		menor = valor1
 	}
-	senao se (valor2 < valor3) 
+	 senao se (valor2 < valor3) 
 	{ 
 		menor = valor2 
-	} senao
+	} 
+         senao
 	{ 
 		menor = valor3 
 	} 
 	escreva("MENOR: " + menor + "\n")
-}  
+  }  
 }
 /* $$$ Portugol Studio $$$ 
  * 
